@@ -19,7 +19,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div id="wrapper">
+      <div id="wrapper"> 
+      
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
